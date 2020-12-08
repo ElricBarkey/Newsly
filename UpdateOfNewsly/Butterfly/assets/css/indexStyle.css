@@ -1,0 +1,58 @@
+#about{
+    position: center;
+    text-align: center;
+    display: inline-block;
+}
+#main {
+    text-align: center;
+}
+
+.btn-store {
+    /*color: rgb(255, 61, 207);*/
+    min-width: 200px;
+    padding: 12px 20px !important;
+    border-color: #ff3dcf !important;
+
+}
+
+.btn-store:focus,
+.btn-store:hover{
+    color: #ff3dcf !important;
+    background-color: black;
+    border-color: #168eea !important;
+}
+
+.btn-store .btn-label,
+.btn-store .btn-caption {
+    display: block;
+    text-align: left;
+    line-height: 1;
+    color: white;
+}
+
+.btn-store .btn-caption {
+    font-size: 20px;
+
+}
+
+#map
+{
+    width: 100%;
+    height: 270px;
+    border: 0;
+}
+
+#youtube
+{
+    height: 506px;
+    width: 899px;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    border-color: #ff3dcf;
+    border: 10px solid;
+
+}

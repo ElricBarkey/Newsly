@@ -1,0 +1,224 @@
+.player {
+    position: relative;
+    height: 60px;
+    background-color: rgba(0,0,0,0.2);
+    display: flex;
+    border-radius: 2px;
+    padding: 5px 16px;
+}
+#image {
+    margin-top: 5px;
+    width: 10em;
+    height: 6em;
+}
+.info {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    width: 50%;
+    padding: 10px 16px;
+    color: white;
+}
+.name {
+    font-size: 15px;
+    font-weight: 700;
+}
+.singer {
+    font-size: 12px;
+}
+
+.btns {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    color: white;
+    font-size: 30px;
+}
+
+div:nth-child(2), div:nth-child(3) {
+    font-size: 18px;
+}
+
+
+.progress {
+    position: absolute;
+    height: 10px;
+    left: 0;
+    top: 0;
+    background-color: black;
+    width: 100%;
+}
+.progressBar{
+    position: absolute;
+    height: 10px;
+    left: 0;
+    top: 0;
+    background-color: #00a8ff;
+}
+
+
+
+@font-face {
+    font-family: iconfont;
+    src: url("../iconfont-4e6.woff") format('woff')
+}
+
+.iconfont {
+    font-family: iconfont!important;
+    font-size: 30px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.icon-list:before {
+    content: "\e603"
+}
+
+.icon-loop-single:before {
+    content: "\e604"
+}
+
+.icon-arrow-right:before {
+    content: "\e605"
+}
+
+.icon-loop:before {
+    content: "\e606"
+}
+
+.icon-prev:before {
+    content: "\e607"
+}
+
+.icon-favor:before {
+    content: "\e608"
+}
+
+.icon-next:before {
+    content: "\e60a"
+}
+
+.icon-download:before {
+    content: "\e60b"
+}
+
+.icon-search:before {
+    content: "\e60c"
+}
+
+.icon-zhanwei1:before {
+    content: "\e610"
+}
+
+.icon-favor1:before {
+    content: "\e618"
+}
+
+.icon-random:before {
+    content: "\e619"
+}
+
+.icon-play:before {
+    content: "\e616"
+}
+
+.icon-stop:before {
+    content: "\e617"
+}
+
+.icon-mv:before {
+    content: "\e61b"
+}
+
+.icon-arrow-down:before {
+    content: "\e61d"
+}
+
+.icon-arrow-left:before {
+    content: "\e61e"
+}
+
+.icon-arrow-up:before {
+    content: "\e61f"
+}
+
+.icon-listen:before {
+    content: "\e609"
+}
+
+.icon-round:before {
+    content: "\e60d"
+}
+
+.icon-triangle:before {
+    content: "\e60e"
+}
+
+.icon-information:before {
+    content: "\e60f"
+}
+
+.icon-home:before {
+    content: "\e611"
+}
+
+.icon-i:before {
+    content: "\e612"
+}
+
+.icon-information-:before {
+    content: "\e613"
+}
+
+.icon-bubble-filled-icon:before {
+    content: "\e614"
+}
+
+.icon-round-right:before {
+    content: "\e615"
+}
+
+.icon-vip:before {
+    content: "\e61a"
+}
+
+.icon-word:before {
+    content: "\e61c"
+}
+
+/* VOLUME BAR CSS */
+
+/* volume bar */
+.volume {
+    position:relative;
+    cursor:pointer;
+    width:40%;
+    height:20px;
+    float:left;
+    margin-top:10px;
+    margin-right:10px;
+    background-color:#000;
+}
+.volumeBar {
+    display:block;
+    height:10px;
+    position:absolute;
+    top:0;
+    left:0;
+    background-color:#888;
+    z-index:10;
+    width: 90%;
+}
+.volume3 {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 50px 100px;
+    border-color: transparent transparent #007bff transparent;
+    line-height: 0px;
+    _border-color: #000000 #000000 #007bff #000000;
+    _filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
+}
